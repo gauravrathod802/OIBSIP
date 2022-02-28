@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Portfolio website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+		rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+		integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+	<div class="container">
+		<div class="header">
+			<!-- logo -->
+			<img src="logo.png" class="logo">
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Skills</a></li>
+					<li><a href="#">Contact </a></li>
+
+				</ul>
+			</nav>
+
+		</div>
+
+		<div class="content">
+			<h4>Hello, my name is</h4>
+			<h1>Gaurav <span>Rathod</span></h1>
+			<h3>I'am a Web Developer.</h3>
+			<a href="#about" class="btn"><span>About Me</span>
+				<i class="fas fa-arrow-circle-down"></i>
+			</a>
+			<div class="social">
+				<a href="#"><i class="fab fa-github"></i></a>
+				<a href="#"><i class="fab fa-hackerrank"></i></a>
+				<a href="#"><i class="fab fa-linkedin"></i></a>
+				<a href="#"><i class="fab fa-facebook-f"></i></a>
+
+
+			</div>
+
+		</div>
+	</div>
+
+	<!----About section start---->
+	<section class="about">
+		<div class="main">
+			<img src="about.png">
+			<div class="about-text">
+				<h2>About Me</h2>
+				<h5>Developer <span>& Designer</span></h5>
+				<p>Hi there I'am Gaurav Rathod, currently pursuing my bachelors from Sknsits, Lonawala pune. I am a
+					front-end web developer I can provide clean code and pixel perfect design. I also make the
+					website more & more interactive with web animations.I can provide clean code and pixel perfect
+					design. I also make the website more & more interactive with web animations.A responsive design
+					makes your website accessible to all users, regardless of their device.</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- skills section starts -->
+	<section class="skills" id="skills">
+
+		<h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
+
+		<div class="container1">
+			<div class="row">
+				<div class="col">
+
+					<div class="bar">
+						<div class="info">
+							<i class="fab fa-html5">
+								<span>HTML</span></i>
+							<span>80%</span>
+						</div>
+						<div class="line html"></div>
+					</div>
+
+					<div class="bar">
+						<div class="info">
+							<i class="fab fa-css3-alt">
+								<span>CSS</span></i>
+							<span>80%</span>
+						</div>
+						<div class="line css"></div>
+					</div>
+
+					<div class="bar">
+						<div class="info">
+							<i class="fab fa-js-square">
+								<span>Javascript</span></i>
+							<span>70%</span>
+						</div>
+						<div class="line javascript"></div>
+					</div>
+
+					<div class="bar">
+						<div class="info">
+							<i class="fas fa-database">
+								<span>MySQL</span></i>
+							<span>90%</span>
+						</div>
+						<div class="line mysql"></div>
+					</div>
+
+
+
+					<div class="col">
+						<div class="bar">
+							<div class="info">
+								<i class="fab fa-java">
+									<span>Java</span></i>
+								<span>88%</span>
+							</div>
+							<div class="line java"></div>
+						</div>
+
+						<div class="bar">
+							<div class="info">
+								<i class="fab fa-python">
+									<span>Python</span></i>
+								<span>80%</span>
+							</div>
+							<div class="line python"></div>
+						</div>
+
+						<div class="bar">
+							<div class="info">
+								<i class="fab fa-android">
+									<span>Android</span></i>
+								<span>60%</span>
+							</div>
+							<div class="line android"></div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+	</section>
+
+	<!------Contact Me------>
+	<div class="contact-me">
+		<p>Contact</p>
+
+		<div class="container2">
+
+			<label for="fname">First Name</label>
+			<input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+			<label for="lname">Last Name</label>
+			<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+			<label for="email">Email</label>
+			<input type="text" id="email" name="email" placeholder="Your email..">
+
+
+
+			<label for="subject">Subject</label>
+			<textarea id="subject" name="subject" placeholder="Write something.." style="height:130px"></textarea>
+
+			<input type="submit" value="Send message">
+
+		</div>
+	</div>
+
+
+	<!------footer start------->
+	<footer>
+		<p>Get in touch</p>
+		<div class="social">
+			<a href="#"><i class="fab fa-facebook-f"></i></a>
+			<a href="#"><i class="fab fa-instagram"></i></a>
+			<a href="#"><i class="fab fa-linkedin"></i></a>
+			<a href="#"><i class="fab fa-telegram"></i></a>
+
+		</div>
+		<p class="end">CopyRight By Gaurav. All Rights Reserved</p>
+	</footer>
+</body>
+
+</html>
